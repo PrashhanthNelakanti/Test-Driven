@@ -36,4 +36,10 @@ public class ProductService {
         product.setCountryOrign(updatedProduct.getCountryOrign());
         return productRepo.save(updatedProduct);
     }
+
+    public Product getProductById(Integer pid) {
+        Product product = productRepo.findProductByPid(pid);
+
+        return product;
+    }
 }
