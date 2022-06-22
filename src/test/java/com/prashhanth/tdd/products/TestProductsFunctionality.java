@@ -49,7 +49,7 @@ public class TestProductsFunctionality {
         Product response = restTemplate.postForObject(baseUrl.concat("/addProduct"), product, Product.class);
         assertEquals("SONY Bravia 22-in", response.getPname());
         assertEquals(23142,response.getPrice());
-        assertEquals(1, h2Repository.findAll().size());
+        assertEquals(2, h2Repository.findAll().size());
     }
 
     @Test
@@ -57,8 +57,8 @@ public class TestProductsFunctionality {
     @Sql(statements = "DELETE FROM PRODUCT WHERE pname='JBL Speakers 320 watt'", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
     public void testGetProducts() {
         List<Product> products = restTemplate.getForObject(baseUrl.concat("/getProducts"), List.class);
-        assertEquals(1, products.size());
-        assertEquals(1, h2Repository.findAll().size());
+        assertEquals(2, products.size());
+        assertEquals(2, h2Repository.findAll().size());
     }
 
     @Test
