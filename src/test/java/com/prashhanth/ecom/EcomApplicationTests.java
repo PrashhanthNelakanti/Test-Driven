@@ -1,10 +1,9 @@
-package com.prashhanth.tdd;
+package com.prashhanth.ecom;
 
-import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TddApplicationTests {
+class EcomApplicationTests {
 
 	/*@Test
 	void contextLoads() {

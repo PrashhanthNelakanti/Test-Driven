@@ -1,6 +1,6 @@
-package com.prashhanth.tdd.products;
+package com.prashhanth.ecom.products;
 
-import com.prashhanth.tdd.product.entity.Product;
+import com.prashhanth.ecom.product.entity.Product;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

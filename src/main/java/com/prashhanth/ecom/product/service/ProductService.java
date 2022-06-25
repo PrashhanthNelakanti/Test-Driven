@@ -1,7 +1,7 @@
-package com.prashhanth.tdd.product.service;
+package com.prashhanth.ecom.product.service;
 
-import com.prashhanth.tdd.product.entity.Product;
-import com.prashhanth.tdd.product.repo.ProductRepo;
+import com.prashhanth.ecom.product.entity.Product;
+import com.prashhanth.ecom.product.repo.ProductRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

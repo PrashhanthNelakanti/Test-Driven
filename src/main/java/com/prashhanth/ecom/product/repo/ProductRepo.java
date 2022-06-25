@@ -1,6 +1,6 @@
-package com.prashhanth.tdd.product.repo;
+package com.prashhanth.ecom.product.repo;
 
-import com.prashhanth.tdd.product.entity.Product;
+import com.prashhanth.ecom.product.entity.Product;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
