@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.pivotal.workshop</groupId>
-    <artifactId>spring-boot-tdd</artifactId>
+    <artifactId>Ecomm</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring-boot-tdd</name>
+    <name>ecomm</name>
     <description></description>
 
     <parent>
